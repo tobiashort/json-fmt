@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	cmd := exec.Command("go", "build", "-o", "build/jsonfmt")
+	cmd := exec.Command("go", "build", "-o", "build/json-fmt")
 	cmd.Stderr = os.Stderr
 	cmd.Stdout = os.Stdout
 	err := cmd.Run()

@@ -9,10 +9,10 @@ import (
 )
 
 func PrintUsage() {
-	fmt.Printf(`jsonfmt [JSON]
+	fmt.Printf(`json-fmt [JSON]
 
 Arguments:
-	jsonfmt takes a JSON string or reads from STDIN
+	json-fmt takes a JSON string or reads from STDIN
 
 `)
 	flag.PrintDefaults()
